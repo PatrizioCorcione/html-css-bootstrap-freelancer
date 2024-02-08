@@ -1,0 +1,22 @@
+.debug{
+  height: 80px;
+  border: 1px solid black;
+}
+header{
+  height: 80px;
+  background-color: #1a2530;
+}
+.hero{
+  height: 490px;
+}
+.hero img{
+  width: 240px;
+}
+.portfolio .col-12{
+  height: 400px;
+}
+.cust-container{
+  width: 60%;
+  margin: 0 auto;
+  height: 400px;
+}
