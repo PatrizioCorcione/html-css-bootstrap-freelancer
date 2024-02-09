@@ -92,7 +92,23 @@ body {
   
  }
 
+ /*ABOUT*/
+
+ .bg-about{
+  background-color: var(--bg-green);
+ }
+
+ 
+
  /*contact*/
+
+ .contact-me{
+  color: var(--bg-dark);
+ }
+
+ .contact-me h3{
+  color: var(--cl-black);
+ }
 
 .pc-form input,
 .pc-form textarea {
