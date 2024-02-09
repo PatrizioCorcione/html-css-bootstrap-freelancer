@@ -4,13 +4,25 @@
   --bg-ldark: #3a546d;
   --cl-black: #333333;
   --bg-sgreen: #13866f;
+  --bg-plus: #1abc9c87;
 
 }
 
 /*utility*/
 
+.debug{
+  height: 80px;
+  border: 1px solid black;
+}
+
 .pc-border{
   border: 0;
+}
+
+.cust-container{
+  width: 60%;
+  margin: 0 auto;
+  height: 400px;
 }
 
 /*GENERAL*/
@@ -28,6 +40,10 @@ body {
 
 
 /*HERO*/
+
+.hero-bg{
+  background-color: var(--bg-green);
+}
 
 .hero h1{
   font-size: 2.3rem;
@@ -50,7 +66,31 @@ body {
 .hero img{
   width: 240px;
 }
+ /*portfolio*/
 
+ .portfolio{
+  color: var(--bg-dark);
+ }
+
+ .portfolio h3{
+  color: var(--cl-black);
+ }
+
+ .plus-green{
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-plus);
+ }
+
+ .fa-plus{
+  font-size: 10rem;
+ }
+
+ .pc-card:hover .plus-green{
+  display: flex !important;
+  
+ }
 
  /*contact*/
 
@@ -72,23 +112,11 @@ body {
   border: none;
 }
 
-.my_button:hover {
+.pc-button:hover {
   background-color: var(--bg-sgreen);
 }
 
 
 
-.debug{
-  height: 80px;
-  border: 1px solid black;
-}
 
 
-.pc-card{
-  height: 400px;
-}
-.cust-container{
-  width: 60%;
-  margin: 0 auto;
-  height: 400px;
-}
