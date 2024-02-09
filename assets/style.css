@@ -135,7 +135,7 @@ body {
 /*TOP FOOTER*/
 
 .top-footer{
-  background-color: var(--bg-dark);
+  background-color: var(--bg-ldark);
 }
 
 .top-footer .ghost a{
@@ -150,6 +150,12 @@ body {
 }
 .top-footer .whitch a{
   color: var(--bg-green);
+}
+
+/*BOT FOOTER*/
+
+.bot-footer{
+  background-color: var(--bg-dark);
 }
 
 
