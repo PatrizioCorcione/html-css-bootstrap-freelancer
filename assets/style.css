@@ -1,17 +1,89 @@
+:root{
+  --bg-green: #1abc9c;
+  --bg-dark: #2c3e50;
+  --bg-ldark: #3a546d;
+  --cl-black: #333333;
+  --bg-sgreen: #13866f;
+
+}
+
+/*utility*/
+
+.pc-border{
+  border: 0;
+}
+
+/*GENERAL*/
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+
+/*header*/
+
+.pc-bg-head{
+  background-color: var(--bg-dark) !important;
+}
+
+
+/*HERO*/
+
+.hero h1{
+  font-size: 2.3rem;
+}
+
+.text-hero{
+  font-size: 1.1rem;
+}
+
+.devil-hr{
+  height: 3px;
+  background-color: currentColor;
+  width: 15%;
+}
+
+.devil-star{
+  font-size: 1.5rem;
+}
+
+.hero img{
+  width: 240px;
+}
+
+
+ /*contact*/
+
+.pc-form input,
+.pc-form textarea {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+}
+
+.pc-form input:focus,
+.pc-form textarea:focus {
+  box-shadow: none;
+}
+
+.pc-button {
+  background-color: var(--bg-green);
+  border: none;
+}
+
+.my_button:hover {
+  background-color: var(--bg-sgreen);
+}
+
+
+
 .debug{
   height: 80px;
   border: 1px solid black;
 }
-header{
-  height: 80px;
-  background-color: #1a2530;
-}
-.hero{
-  height: 490px;
-}
-.hero img{
-  width: 240px;
-}
+
+
 .pc-card{
   height: 400px;
 }
