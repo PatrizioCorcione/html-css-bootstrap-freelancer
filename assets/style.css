@@ -132,6 +132,25 @@ body {
   background-color: var(--bg-sgreen);
 }
 
+/*TOP FOOTER*/
+
+.top-footer{
+  background-color: var(--bg-dark);
+}
+
+.top-footer .ghost a{
+  font-size: 1.1rem;
+  color: white;
+  text-decoration: none;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 1px solid white;
+}
+.top-footer .whitch a{
+  color: var(--bg-green);
+}
 
 
 
